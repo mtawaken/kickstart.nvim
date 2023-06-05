@@ -494,5 +494,15 @@ cmp.setup {
   },
 }
 
+vim.o.number=true
+vim.o.nowrap=true
+vim.o.sidescroll=1
+vim.o.tabstop=4
+vim.o.softtabstop=4
+vim.o.shiftwidth=4
+vim.o.expandtab=true
+vim.o.autoindent=true
+vim.o.fileformat="unix"
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
